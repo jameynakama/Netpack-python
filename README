@@ -1,0 +1,21 @@
+Netpack.py should run "out of the box" in Windows, but compiling is a bit
+messier.
+
+To compile, you'll need Python, Pygame, and the correct version of py2exe
+installed.
+
+The icon file (np_icon.ico) never looks right on my computer, but maybe you'll
+have better luck with it.
+
+To compile, cd to the src/ directory and run the pygame2exe.py script.
+Sometimes, pygame2exe throws a "WindowsError: The directory is not empty"
+exception, but if you keep brute-forcing the script, it will (should) eventually
+work.
+
+The compiled EXE will be in the dist/ folder.
+
+I went through hell and back figuring out how to put a relative link outside
+this folder, eventually writing a BAT script and converting that into an EXE.
+If you really want instructions about this final aesthetic step, just email me.
+
+Have fun!
